@@ -4,7 +4,7 @@
     <title>Laravel UI Template</title>
     
     @viteReactRefresh
-    @vite('resources/scripts/app.jsx')
+    @vite('resources/scripts/app/src/index.jsx')
   
   </head>
   <body>

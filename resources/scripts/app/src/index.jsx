@@ -1,11 +1,13 @@
 import React, { Fragment } from 'react'
 import ReactDOM from 'react-dom/client'
 
-import './../css/app.css'
+import './../../../css/app.css'
+
+import App from './App'
 
 const app = ReactDOM.createRoot(document.getElementById('app'))
 app.render(
   <Fragment>
-    <h1>Hallo from UI page!</h1>
+    <App />
   </Fragment>
 )
